@@ -9,6 +9,8 @@
         <h2>I am child 2 h2</h2>
     </div>
 */
+import React from "react";
+import ReactDOM  from "react-dom/client";
 
 const parent = React.createElement(
     "div", { id: "parent" },
