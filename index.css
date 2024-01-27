@@ -1,3 +1,47 @@
-#heading {
-    color: red;
+.header {
+  display: flex;
+  border: 2px solid black;
+  justify-content: space-between;
+  font-size: large;
+  align-items: center;
+}
+
+.logo {
+  width: 100;
+  border: 2px solid red;
+}
+
+.nav-items > ul {
+  display: flex;
+}
+
+.nav-items > ul > li {
+  font-size: large;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.card-img {
+  width: 200px;
+  height: 100px;
+}
+
+.product-container {
+  display: flex;
+
+  margin-top: 10px;
+  overflow-x: scroll;
+  cursor: pointer;
+}
+
+.products-container {
+  overflow-y: scroll;
+}
+
+.product-card {
+  height: 150px;
+  border: 1px solid grey;
+  margin: 0px 30px;
+  padding: 1px, 1px;
+  background-color: beige;
 }
